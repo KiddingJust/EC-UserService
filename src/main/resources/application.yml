@@ -25,5 +25,15 @@ eureka:
     service-url:
       defaultZone: http://localhost:8761/eureka
 
+logging:
+  level:
+    com.gaiga.userservice: DEBUG
+
+token:
+  #하루짜리 토큰 
+  expiration_time: 86400000
+  #임의의 값
+  secret: user_token
+
 greeting:
   message: Welcome to the Simple E-commerce

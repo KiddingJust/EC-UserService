@@ -24,7 +24,8 @@ import com.gaiga.userservice.vo.RequestUser;
 import com.gaiga.userservice.vo.ResponseUser;
 
 @RestController
-@RequestMapping(value="/user-service")
+//@RequestMapping(value="/user-service")
+@RequestMapping(value="/")
 public class UserController {
 	
 	private Environment env;
